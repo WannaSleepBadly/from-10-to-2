@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>491</width>
+    <height>402</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Times New Roman</family>
+    <pointsize>14</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>471</width>
+      <height>361</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <spacer name="horizontalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QLabel" name="label">
+         <property name="text">
+          <string>Уровни сложности</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QTextBrowser" name="textBrowser">
+       <property name="html">
+        <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Times New Roman'; font-size:14pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:100%; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman';&quot;&gt;Всего в игре есть &lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-weight:600;&quot;&gt;3&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman';&quot;&gt; уровня сложности, от их выбора меняется &lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; text-decoration: underline;&quot;&gt;количество очков&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman';&quot;&gt;, получаемых за правильный перевод числа, и &lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; text-decoration: underline;&quot;&gt;время&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman';&quot;&gt;, отведенное на это. &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:100%; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-style:italic; color:#f30000;&quot;&gt;Легкая сложность&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-style:italic;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman';&quot;&gt; Дается &lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; color:#ff7300;&quot;&gt;10&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman';&quot;&gt; секунд на перевод и &lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; color:#ff7300;&quot;&gt;10&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman';&quot;&gt; очков, если он оказывается правильным. &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:100%; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-style:italic; color:#ad0000;&quot;&gt;Сложная&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-style:italic;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman';&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; color:#d15e00;&quot;&gt;7&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman';&quot;&gt; секунд на перевод и &lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; color:#d15e00;&quot;&gt;20&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman';&quot;&gt; очков, если он оказывается правильным. &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:100%; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-style:italic; color:#640000;&quot;&gt;Хардкор&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-style:italic;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman';&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; color:#954000;&quot;&gt;3&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman';&quot;&gt; секунды на перевод и &lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; color:#954000;&quot;&gt;60&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman';&quot;&gt; очков, если он оказывается правильным.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="ToMenu">
+       <property name="text">
+        <string>Вернуться в главное меню</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>491</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
